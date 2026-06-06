@@ -44,8 +44,8 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>🍕 JN FOOD CORNER</h1>
-        <p>Order delicious food and get it delivered to your doorstep!</p>
+        <h1>🍕 M.R Homemade Brownies</h1>
+        <p>Order delicious 🎂 Cakes & Custom Sweets and get it delivered to your doorstep!</p>
       </header>
       
       <div className="app-content">
