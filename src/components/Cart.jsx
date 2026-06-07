@@ -22,8 +22,8 @@ function Cart({ cart, onPlaceOrder, onRemoveItem, onUpdateQuantity }) {
 
     // Address section as requested
     message += `TYPE ADDRESS:\n`;
-    message += `Please type address Or Street Name:\n`;
-    message += `customer current Google map location:`;
+    message += `Please type \n 1.address Or Street Name:\n\n`;
+    message += `2.customer current Google map location:\n`;
     if (mapsLink) {
       message += `\n${mapsLink}`;
     }
