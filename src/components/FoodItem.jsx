@@ -51,6 +51,7 @@ function FoodItem({ item, onAddToCart }) {
         >
           Add to Cart
         </button>
+        Contact us<a href='tel:+916385292762'>+91 6385292762</a>
       </div>
     </div>
   );
