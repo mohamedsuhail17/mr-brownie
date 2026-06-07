@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import FoodItem from './components/FoodItem';
 import Cart from './components/Cart';
+import Footer from './components/Footer'
 import { foodItems } from './data/foodItems';
+
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -43,7 +45,7 @@ function App() {
 
   return (
     <div className="app">
-      <header className="app-header">
+      <header className="app-header bg-black">
         <h1>🍕 M.R Homemade Brownies</h1>
         <p>Order delicious 🎂 Cakes & Custom Sweets and get it delivered to your doorstep!</p>
       </header>
@@ -71,6 +73,7 @@ function App() {
           />
         </aside>
       </div>
+      <Footer />
     </div>
   );
 }
