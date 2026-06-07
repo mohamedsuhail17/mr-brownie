@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
   box-sizing: border-box;
 }
 
@@ -19,7 +19,7 @@ body {
 .app {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 20px;
+ 
 }
 
 .app-header {

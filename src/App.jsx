@@ -50,7 +50,7 @@ function App() {
         <p>Order delicious 🎂 Cakes & Custom Sweets and get it delivered to your doorstep!</p>
       </header>
       
-      <div className="app-content">
+      <div className="app-content pl-5">
         <main className="menu-section">
           <h2>Our Menu</h2>
           <div className="food-grid">
@@ -64,7 +64,7 @@ function App() {
           </div>
         </main>
 
-        <aside className="cart-section">
+        <aside className="cart-section pr-5">
           <Cart
             cart={cart}
             onPlaceOrder={placeOrder}
