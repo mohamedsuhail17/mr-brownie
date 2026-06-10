@@ -64,7 +64,7 @@ function App() {
           </div>
         </main>
 
-        <aside className="cart-section pr-5">
+        <aside className="cart-section p-5">
           <Cart
             cart={cart}
             onPlaceOrder={placeOrder}
