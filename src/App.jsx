@@ -50,7 +50,7 @@ function App() {
         <p>Order <span className='whitespace-nowrap'>delicious 🎂 Cakes</span> & <span className='whitespace-nowrap'>Custom Sweets </span>and get it delivered to your doorstep!</p>
       </header>
       
-      <div className="app-content pl-5">
+      <div className="app-content p-5">
         <main className="menu-section">
           <h2>Our Menu</h2>
           <div className="food-grid">

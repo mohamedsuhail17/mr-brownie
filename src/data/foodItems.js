@@ -4,7 +4,7 @@ export const foodItems = [
     name: "Blondie",
     price: 150,
     // image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=500&h=500&fit=crop"
-    image: "/Image/blondie-img.jpg"
+    image: "/Image/blondie.jpg"
   },
   {
     id: 2,
