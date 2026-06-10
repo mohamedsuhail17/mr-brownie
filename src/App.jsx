@@ -45,9 +45,9 @@ function App() {
 
   return (
     <div className="app">
-      <header className="app-header bg-black">
+      <header className="app-header bg-black p-3">
         <h1>🍕 M.R Homemade Brownies</h1>
-        <p>Order delicious 🎂 Cakes & Custom Sweets and get it delivered to your doorstep!</p>
+        <p>Order <span className='whitespace-nowrap'>delicious 🎂 Cakes</span> & <span className='whitespace-nowrap'>Custom Sweets </span>and get it delivered to your doorstep!</p>
       </header>
       
       <div className="app-content pl-5">

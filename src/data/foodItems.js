@@ -1,10 +1,10 @@
 export const foodItems = [
   {
     id: 1,
-    name: "Bread Omelette",
-    price: 40,
+    name: "Blondie",
+    price: 150,
     // image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=500&h=500&fit=crop"
-    image: "/Image/WhatsApp Image 2025-11-07 at 22.55.29_b2c87a3c.jpg"
+    image: "/Image/blondie-img.jpg"
   },
   {
     id: 2,
