@@ -60,7 +60,7 @@ function Cart({ cart, onPlaceOrder, onRemoveItem, onUpdateQuantity }) {
 
     const message = formatOrderMessage(mapsLink);
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/918270679793?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/916385292762?text=${encodedMessage}`;
     window.open(whatsappUrl, '_blank');
     onPlaceOrder();
   };
